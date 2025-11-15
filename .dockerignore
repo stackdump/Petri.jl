@@ -1,0 +1,30 @@
+# Git files
+.git
+.github
+.gitignore
+
+# Documentation
+docs/
+README.md
+LICENSE
+
+# Examples
+examples/
+
+# Julia artifacts
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+Manifest.toml
+
+# Build artifacts
+deps/deps.jl
+deps/build.log
+deps/downloads/
+deps/usr/
+deps/src/
+
+# Other
+.ipynb_checkpoints
+dev
+env
